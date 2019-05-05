@@ -11,7 +11,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 #bring in the data and make the id into index
-train_path = '/Users/chunyangjia/Desktop/ECE9063/Assignment_2/housing_price/train.csv'
+train_path = './housing_price/train.csv'
 df_data = pd.read_csv(train_path)
 print (df_data.head())
 df_corr = df_data.corr()
@@ -66,8 +66,7 @@ print("RMSE for SVR: ", np.sqrt(metrics.mean_squared_error(y_test,y_svm_pred)))
 print("MAE for SVR: ", metrics.mean_absolute_error(y_test,y_svm_pred))
 df_SVM = pd.DataFrame({'Actual':y_test, 'SVM_Predicted':y_svm_pred,'Linear Regression Predicted':y_LR_pred})
 
-############################################################
-#neural networks
+
 
 
 
