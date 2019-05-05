@@ -1,6 +1,4 @@
 # Machine_Learning
-machine learning projects
-
 
 1. House_Price_prediction
 
