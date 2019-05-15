@@ -31,8 +31,8 @@ Goal: recommend top 10 artists for listeners based on listening counts and tags 
 
 Dataset: This dataset contains social networking, tagging, and music artists listening information from a set of 1892 users from Last.fm online music system. This dataset contains 1892 users, 17632 artists, 92834 user-listened artist relations, 11946 tags and 186479 tag assignments of artists from 2005 to 2011.    
 
-1. Item-based(if he listens a country music, we will recommend other 10 country music singers. 
-2. User-based,(Similar user usually has similar taste.    
+1. Item-based(if he listens a country music, we will recommend other 10 country music singers). 
+2. User-based,(Similar user usually has similar taste). 
 3. Ensemble-model. firstly we recommend 50 top artists by user-based models then rank them again based on styles of the artist beinng tagged. 
 4. Compared KNNwithmeans, KNNBasic, KNNBaseline algorithms as well as pearson and cosine similarity(Minor difference in this case. 
 5. Evaluated with precision, recall and F1 score. 
